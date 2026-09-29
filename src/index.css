@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* 전체 기본 스타일: 카페 느낌의 따뜻한 베이지 배경(#faf6f0) 및 '맑은 고딕' 폰트 설정 */
+@layer base {
+  body {
+    background-color: #faf6f0;
+    color: #3d2516;
+    font-family: '맑은 고딕', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* 입력칸 공통 스타일: 너비 100%, 패딩 10px, 둥근 모서리 8px, 포커스 시 갈색 테두리 + 연한 갈색 그림자 */
+.cafe-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d9cbb8;
+  background-color: #ffffff;
+  color: #3d2516;
+  font-size: 15px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  outline: none;
+}
+
+.cafe-input:focus {
+  border-color: #6b4226;
+  box-shadow: 0 0 0 3px rgba(107, 66, 38, 0.18);
+}
+
+/* 라디오 및 체크박스 액센트 색상 */
+.cafe-choice {
+  accent-color: #6b4226;
+}
+

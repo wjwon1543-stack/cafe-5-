@@ -1,0 +1,6 @@
+{
+  "name": "바이브 카페 주문 게시판",
+  "description": "당신의 하루에 바이브를 더하다 - 실시간 예상 금액 계산 및 음료 주문 게시판 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
